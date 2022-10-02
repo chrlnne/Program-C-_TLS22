@@ -1,0 +1,20 @@
+//Convert Gram to Kilogram
+#include <iostream>
+
+int main() 
+{
+using namespace std;
+    
+float kg, gr,cent;
+cout << "\n\n Convert gram into kilogram and: \n";
+cout << "------------------------------------------- \n";	
+    cout << "Input the weight in gram :";
+    cin >> cent;
+	gr = (cent/1);
+	kg = (cent/1000); 
+	cout << "The weight in gram is:" << gr << endl;
+	cout << "The weight in kilogram is:"<<
+	kg << endl;	
+	cout << endl;
+    return 0;
+}
